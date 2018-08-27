@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>黑球的房间</title>
+</head>
+<body>
+	<!-- 
+	1.分区标签自身没有显示效果，可以充当容器的作用
+	-div		：块级分区元素，独占一行
+	-span	：行内分区元素，和其他元素共占一行
+	
+	开发页面时通常会分为三大区
+	2.H5标准中新增的分区标签，作用和div一样，但是更直观
+	<header>头部
+	<nav>导航
+	<article>身体
+	<footer>脚部
+	
+	
+	
+	 -->
+	<div>div1</div>
+	<div>div2</div>
+	<div>div3</div>
+	
+	<span>span1</span>
+	<span>span2</span>
+	<span>span3</span>
+
+
+
+</body>
+</html>

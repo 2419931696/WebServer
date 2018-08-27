@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<img alt="哎呀，图片找不到了" 
+	src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2951799273,2381641978&fm=27&gp=0.jpg"
+	width="1000px"	usemap="mymap"
+	>
+	<map name="mymap"	id="mymap">
+		<area alt="文字介绍" shape="circle"	coords="430,260,35"	href="logo.png">
+		<area alt="文字介绍"	shape="circle" coords="565,260,35"href="logo.png">
+		</map>
+</body>
+</html>

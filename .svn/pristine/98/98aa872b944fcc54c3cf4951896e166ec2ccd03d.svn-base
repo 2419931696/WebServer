@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>块级元素和行内元素</title>
+</head>
+<body>
+	我是<em>斜体</em>标签<br>
+	我也是<i>斜体</i>标签<br>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>黑球的房间</title>
+</head>
+<body>
+	<h3>无序列表：</h3>
+	<ul type="square">
+		<li>刘备</li>
+		<li>貂蝉</li>
+		<li>项羽</li>
+		<li>狄仁杰</li>
+		<li>吕布</li>
+	</ul>
+	<h3>有序列表：</h3>
+	把大象装冰箱需要几步？
+	<ol start="1" reversed="reversed" >
+		<li>打开冰箱门</li>
+		<li>把大象装进冰箱</li>
+		<li>关上冰箱门</li>
+	</ol>
+	<h3>定义列表：</h3>
+		<dl><!-- defined定义 list列表 -->
+			<dt>凉菜</dt><!-- defined title标题 -->
+			<dd>大拌菜</dd>
+			<dd>花毛一体</dd>
+			<dd>拍黄瓜</dd>
+			<dt>炒菜</dt>
+			<dd>宫保鸡丁</dd>
+			<dd>木须肉</dd>
+			<dd>小炒肉</dd>
+		</dl>
+		<ol>
+			<li>ol1</li>
+			<li>ol2
+				<ul type="circle">
+					<li>第二层1</li>
+					<li>第二层2</li>
+					<ul type="circle">
+						<li>第三层1</li>
+						<li>第三层2</li>
+						<li>第三层3</li>
+					</ul>
+					<li>第三层3</li>
+				</ul>
+			</li>
+			<li>ol3</li>
+		</ol>
+		
+		<h3>嵌套练习：</h3>
+		<ol type="1">
+			<li>java基础</li>
+				<ul type="circle">
+					<li>变量</li>
+					<li>数据类型</li>
+					<li>运算符</li>
+					<li>流程控制</li>
+						<ul type="circle">
+							<li>if</li>
+							<li>switch</li>
+							<li>while</li>
+							<li>for</li>
+						</ul>
+				</ul>
+			<li>java面向对象</li>
+			<li>javaAPI</li>
+		
+		
+		</ol>
+		
+		
+		
+	
+</body>
+</html>

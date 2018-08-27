@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>伪类选择器</title>
+<style type="text/css">
+/*	鼠标悬停在li上方时，li的显示效果	*/
+input{	border:1px	solid	#ddd;		}
+input:FOCUS {
+	border:1px solid blue;
+	background-color: yellow;
+	
+}
+.btn{border:2px outset #ddd;	/* 凸起边框*/
+	background-color: #eee;	/*	按钮背景*/
+	text-align:center;	/*	文字居中	*/
+	cursor:pointer;		/*	设置鼠标箭头	*/	
+	width:100px;
+	}
+	/*	利用伪类：active设置按钮被按下时候效果	*/	
+.btn:ACTIVE {
+	border:2px	inset		#ddd;	
+	color: red;
+	
+}
+</style>
+</head>
+<body>
+	<h1>伪类选择器2</h1>
+	<h2>表单</h2>
+	<div>
+		<form action="reg" >
+			<table border="1">
+			<tr>
+				<td><label>用户</label></td>
+				<td><input type="text" value="username"></td>
+			</tr>
+			<tr>
+				<td><label>电话</label></td>
+				<td><input type="text"></td>
+			</tr>
+			</table>
+		</form>
+	</div>
+	<div class="btn" title="好丑啊">按钮</div>
+	
+	
+</body>
+</html>

@@ -1,0 +1,6 @@
+重构ClientHandler根据不同请求调用对应Servlet的工作。这里应当利用反射机制。根据不同的请求找到对应
+的Servlet处理类的名字，然后加载并实例化这个类，之后调用其service方法来处理该请求对应的业务。
+
+而请求与其对应的Servlet名字可以作为配置内容。我们在ServerContext中定义一个Map，其中key为请求
+路径，value为对应该请求的业务处理类的名字XXXServlet。而请求与Servlet的类名可以用一个xml文件
+进行维护。这样当ClientHandler在得到一个请求后，可以根据该请求找到对应的Servlet。

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>消除浮动影响</title>
+<style type="text/css">
+.menu div{
+	width: 200px;
+	height:40px;
+	text-align: center;
+	background-color: #eee;
+	float: left;
+	border: 1px solid #f00;
+}
+.menu{
+	border: 1px solid #00f;
+}
+</style>
+</head>
+<body>
+	<h1>消除浮动影响</h1>
+	<div class="menu">
+		<div>HOME</div>
+		<div>关于我们</div>
+		<header style="clear:both;"></header><!-- 利用clear:both消除浮动对后续元素的影响 -->
+	</div>
+	<h2>范传奇是谁</h2>
+	<p>是一个孩子的爸，很喜欢变形金刚，保持在每天购买一个变形金刚的嗜好并且从来不给孩子
+	玩，都是他一个人玩。</p>
+	
+</body>
+</html>

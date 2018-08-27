@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- alt:当图片不能正常显示的时候显示此内容 -->
+<!-- src:图片路径
+1.相对路径：	显示站内资源使用相对路径
+a.图片和页面同一目录，直接写图片名称
+b.图片在页面的上级目录，../a.jpg，上上级为../../a.jng
+c.图片在页面的下级目录，abc/a.jpg
+2.绝对路径：通常以http开头，访问站外资源
+	访问占位资源也称为图片盗链
+	目标图片路径发生改变，则不能正常显示
+ -->
+ <!-- 支持的图片格式：jpg/jpeg不支持透明色   png支持透明色		gif动图 -->
+ 	<!-- title:鼠标悬停时显示的内容 -->
+ 	<!-- width/height 值为像素px或百分比%，
+ 	如果只设置宽，则高度会等比缩放
+ 	-->
+ 	
+	<img alt="哎呀，图片找不到了"  src="logo.png"><br>
+	<img alt="哎呀，图片找不到了"  title="别哭"  width="120px"  src="abc/9.png"><br>
+	<img alt="哎呀，图片找不到了"  src="../imgs/8.png"><br>
+	<img alt="哎呀，图片找不到了"  src="../../../8.png"><br>
+	<img src="https://www.baidu.com/img/bd_logo1.png"  ><br>
+</body>
+</html>

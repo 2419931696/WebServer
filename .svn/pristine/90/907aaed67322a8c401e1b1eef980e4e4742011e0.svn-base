@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<img alt="哎呀，图片找不到了" 
+	src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2951799273,2381641978&fm=27&gp=0.jpg"
+	width="1000px"	usemap="mymap">
+	<map name="mymap"	id="mymap">
+		<area alt="文字介绍" shape="circle"	coords="430,260,35"	href="logo.png">
+		<area alt="文字介绍"	shape="circle" coords="565,260,35"href="logo.png">
+		<!-- href:值为路径，可以写相对路径和绝对路径，路径可以指向页面，也可以指向文件，如果浏览器
+		支持打开此格式的文件则直接浏览（图片，pdf等），如果不支持打开则下载此文件
+		shape:形状
+-->
+		</map>
+</body>
+</html>

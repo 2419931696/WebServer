@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>我的简历</title>
+</head>
+<body>
+	<h1 align="center">个人简历</h1>
+	<h3 align="left">基础信息</h3>
+	<hr>
+	<p>姓名：苍老师</p>
+	<p>年龄：18</p>
+	<p>性别：男</p>
+	<p>爱好：女</p>
+	个人经历<br><br>1.2018年度达内美男子评选冠军
+	<p>2.2017年全国武道大会力压悟空夺得第一名
+	
+	
+	
+</body>
+</html>

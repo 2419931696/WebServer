@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>盒子模型</title>
+<style type="text/css">
+.demo{
+	/*	利用类选择器复用样式	*/
+	width:100px;/*	内容区域的宽	*/
+	height:80px;/*	内容区域的高	*/
+	padding: 10px;/*	设定内边距，内容与盒子边界的缝隙	*/
+	border:3px dashed #ddd;/*	设定边框，盒子皮的厚度	*/
+	background-color: #ff0;
+}
+#box{
+
+	/* margin:30px;*//*	设定外边距，设置4个边盒子与盒子之间的距离	*/
+	/*margin-left: 10px;*//*	设置左边界的外边距	*/
+	/*margin-bottom: 100px;*/
+	margin:100px 10px;/**/
+	
+}
+#box2{
+
+	border:3px dashed #abc;
+	margin:10px;/*	背景绘制在内边距之内，外边距范围不绘制背景	*/
+}
+</style>
+</head>
+<body>
+	<h1>盒子模型</h1>
+	<div id="box"		class="demo">范传奇呵呵</div>
+	<div	id="box2"		class="demo">盒子间相互侵占</div>
+</body>
+</html>
